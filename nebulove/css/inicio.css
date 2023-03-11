@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+
+.cena1{
+    background-image: url(/images/sala\ principal.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+.cena2{
+    background-image: url(/images/corredor.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer2 {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+.centralizar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tituloNpc{
+    display: flex;
+    background-color: rgb(5, 184, 139);
+    height: 30%;
+    font-size: x-large;
+   justify-content: space-between;
+}
+
+.npc{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.avancar{
+    cursor: pointer;
+}
+
+.balaoDeConversa{
+    width: 50%;
+    height: 180px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.balaoNpc{
+    background-color: rgba(0, 0, 0, 0.726);
+    height: 70%;
+}
+
+.textoNpc{
+    font-size: x-large;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    word-break:keep-all;
+}
